@@ -1,0 +1,92 @@
+{
+	"Category":{
+		"Id":"1",
+		"Name":"root"
+	},
+	"Rules":[],
+	"Categories": [
+
+		{
+			"Category":{
+				"Id":"2",
+				"Name":"Performance"
+			},
+			"Rules":[
+				{
+					"Id":"1",
+					"UserAdvice":"Please increase the site's performance by removing unnecesary javascript",
+					"Value":"JS Exceeds 20% of the load time",
+					"PassOrFail":"FAIL"
+				},
+				{
+					"Id":"2",
+					"UserAdvice":"The site can have better responsiveness",
+					"Value":"Your site is not responsive",
+					"PassOrFail":"FAIL"
+
+				},
+				{
+					"Id":"3",
+					"UserAdvice":"Consider minifying the javascript",
+					"Value":"Your site has not minified the Javascript",
+					"PassOrFail":"FAIL"
+
+				}
+	
+			],
+			"Categories": [
+			]
+		},
+		{
+			"Category":{
+				"Id":"3",
+				"Name":"SEO Recommendations"
+			},
+			"Rules":[
+				{
+					"Id":"4",
+					"UserAdvice":"Consider adding meta keywords",
+					"Value":"No meta Keywords found",
+					"PassOrFail":"FAIL"
+
+				},
+				{
+					"Id":"5",
+					"UserAdvice":"The site could use HTTPS instead of HTTP",
+					"Value":"HTTPS Requests Failed because of error: HTTPS Expired",
+					"PassOrFail":"FAIL"
+
+				},
+				{
+					"Id":"7",
+					"UserAdvice":"Consider compressing the images",
+					"Value":"20/22 images are not compressed.",
+					"PassOrFail":"WARNING"
+
+				}
+	
+			],
+			"Categories": [
+
+				{
+					"Category":{
+						"Id":"4",
+						"Name":"SEO - Analytics"
+					},
+					"Rules":[
+						{
+							"Id":"8",
+							"UserAdvice":"Well done! your website has Google Analytics ",
+					"Value":"Google Analytics: Found OK",
+					"PassOrFail":"PASS"
+
+						}
+					],
+					"Categories": [
+					]
+				}
+			]
+		}
+	]
+}
+
