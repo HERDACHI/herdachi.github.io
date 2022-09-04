@@ -1,0 +1,31 @@
+@-webkit-keyframes movimiento-horizontal {
+   from {left: 0px;}
+   to   {left: 200px;}
+}   
+
+@-webkit-keyframes movimiento-vertical {
+   from {top: 200px;}
+   to   {bottom: 0px;}
+} 
+
+
+#anim {
+   -webkit-animation-name: movimiento-horizontal;
+   -webkit-animation-duration: 3s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-direction: alternate;/*para que vuelva a su posicion inicial */
+   width: 100px;background-color: Teal;
+   color: #fff;
+   position: relative; 
+   padding: 2px;
+}
+#anim2 {
+   -webkit-animation-name: movimiento-vertical;
+   -webkit-animation-duration: 3s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-direction: alternate;/*para que vuelva a su posicion inicial */
+   width: 100px;background-color: blue;
+   color: white;
+   position: relative; 
+   padding: 2px;
+}
